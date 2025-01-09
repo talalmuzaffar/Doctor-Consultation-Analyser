@@ -1,6 +1,6 @@
-# Doctor Consultation Analyzer
+# Medical Consultation Analyzer
 
-A sophisticated AI-powered application that transforms medical consultations into structured, analyzable documentation. Built with Streamlit and Groq AI, this tool specializes in Urdu-to-English medical translation, transcription, and comprehensive clinical analysis.
+A sophisticated AI-powered application that transforms medical consultations into structured, analyzable documentation. Built with Streamlit and advanced AI models (Llama, Whisper), this tool specializes in Urdu-to-English medical translation, transcription, and comprehensive clinical analysis.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
@@ -22,13 +22,14 @@ A sophisticated AI-powered application that transforms medical consultations int
 
 ### Language Processing
 - **Transcription**
-  - Urdu speech-to-text conversion
+  - Powered by OpenAI's Whisper Large V3 model
+  - Specialized in Urdu speech-to-text conversion
   - Medical terminology recognition
-  - High accuracy with Whisper Large V3 model
+  - High accuracy transcription
 
-- **Translation**
-  - Professional medical Urdu-to-English translation
-  - Context-aware translation
+- **Translation & Analysis**
+  - Llama 3.2 90B model for medical translation
+  - Context-aware translation using Groq's API
   - Preservation of medical terms and measurements
   - Maintenance of consultation flow
 
@@ -63,8 +64,8 @@ A sophisticated AI-powered application that transforms medical consultations int
 
 1. **Clone the Repository**
 ```bash
-git clone https://github.com/talalmuzaffar/Doctor-Consultation-Analyser
-cd medical-consultation-analyzer
+git clone https://github.com/talalmuzaffar/Doctor-Consultation-Analyser.git
+cd Doctor-Consultation-Analyser
 ```
 
 2. **Create and Activate Virtual Environment**
@@ -140,6 +141,12 @@ The analysis provides:
 
 ## 🛠️ Technical Details
 
+### Core Technologies
+- **AI Models**
+  - Llama 3.2 90B for medical translation and analysis
+  - Whisper Large V3 for speech recognition
+  - Groq API for model serving
+
 ### Dependencies
 ```
 streamlit>=1.10.0
@@ -179,9 +186,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Groq AI for providing powerful language models
+- Meta AI for the Llama model
+- OpenAI for the Whisper model
+- Groq AI for providing efficient model serving
 - Streamlit team for the excellent web framework
-- OpenAI's Whisper for transcription capabilities
 - ReportLab for PDF generation
 - All contributors and users of this project
 
