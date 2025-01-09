@@ -1,4 +1,4 @@
-# Medical Consultation Analyzer
+# Doctor Consultation Analyzer
 
 A sophisticated AI-powered application that transforms medical consultations into structured, analyzable documentation. Built with Streamlit and Groq AI, this tool specializes in Urdu-to-English medical translation, transcription, and comprehensive clinical analysis.
 
@@ -63,7 +63,7 @@ A sophisticated AI-powered application that transforms medical consultations int
 
 1. **Clone the Repository**
 ```bash
-git clone [repository-url]
+git clone https://github.com/talalmuzaffar/Doctor-Consultation-Analyser
 cd medical-consultation-analyzer
 ```
 
