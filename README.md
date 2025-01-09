@@ -180,9 +180,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🆘 Support
 
-- **Documentation**: [Wiki Link]
 - **Issues**: Please report bugs via GitHub issues
-- **Contact**: [Your Contact Information]
+- **Contact**: talalmuzaffar3@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -196,7 +195,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔄 Updates and Versions
 
 - Current Version: 1.0.0
-- Last Updated: [Date]
 - Check releases for changelog
 
 ---
